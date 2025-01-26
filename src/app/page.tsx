@@ -17,7 +17,7 @@ export default function Login() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
       <div className="w-[320px] p-6 bg-white rounded-2xl shadow-md">
-        <h1 className="text-2xl font-bold text-center mb-6">로그인</h1>
+        <h1 className="text-2xl font-bold text-center mb-6 text-gray-700">로그인</h1>
 
         <form className="flex flex-col gap-4" onSubmit={onLogin}>
           <div>
